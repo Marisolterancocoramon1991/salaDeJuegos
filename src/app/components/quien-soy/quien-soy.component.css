@@ -1,0 +1,21 @@
+body {
+    background-color: #f5e3db; /* Fondo carne */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrar en la pantalla */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  h1 {
+    text-align: center; /* Centrar el título */
+  }
+  
+  p {
+    text-align: justify; /* Justificar párrafos */
+  }

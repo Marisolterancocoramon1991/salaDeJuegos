@@ -1,0 +1,46 @@
+
+<head>
+  <title>Cinco Botones</title>
+  <style>
+    /* Estilos para la barra de navegación */
+    .navbar {
+      background-color: #ffebcd; /* Color crema */
+      padding: 10px; /* Espaciado interno */
+      position: fixed; /* Fijar la barra en la parte superior */
+      top: 0; /* Alinear la barra en la parte superior */
+      width: 100%; /* Ancho completo */
+      z-index: 999; /* Colocar encima de otros elementos */
+    }
+    
+    /* Estilos para los botones */
+    .button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    .button:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <div class="navbar">
+    <!-- Cinco botones con diferentes propiedades -->
+    <button class="button" id="button1" onclick="alert('Botón 1')">"¿Quién soy?"</button>
+    <button class="button" id="button2" disabled>Ahorcado</button>
+    <button class="button" id="button3">Mayor o Menor</button>
+    <button class="button" id="button4" data-info="Información adicional">Preguntados</button>
+    <button class="button" id="button5" data-custom="Valor personalizado">juego nuevo</button>
+  </div>
+  
+  <!-- Contenido de la página -->
+  <div style="margin-top: 50px;"> <!-- Espaciado para evitar que el contenido se superponga con la barra de navegación -->
+    <!-- Aquí puedes agregar el resto del contenido de tu página -->
+  </div>
+</body>
